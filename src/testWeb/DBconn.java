@@ -13,7 +13,7 @@ public class DBconn {
 			
 			String url = "jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC";
 			String user = "root";
-			String password = "rlaehgud159";
+			String password = "";
 			
 			conn = DriverManager.getConnection(url, user, password);
 		} catch(ClassNotFoundException | SQLException e) {
